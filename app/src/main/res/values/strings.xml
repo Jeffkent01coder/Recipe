@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">How  To</string>
+    <string name="splash">Splash</string>
+    <string name="get_started">Get Started</string>
+    <string name="all_recipes">All Recipes</string>
+    <string name="dish_name">Dish Name</string>
+</resources>
