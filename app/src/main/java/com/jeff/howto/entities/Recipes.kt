@@ -1,5 +1,6 @@
 package com.jeff.howto.entities
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.Serializable
@@ -8,6 +9,9 @@ import java.io.Serializable
 data class Recipes (
 
     @PrimaryKey(autoGenerate = true)
-    var id:Int
+    var id:Int,
+
+    @ColumnInfo(name = "dishName" )
+    var dishName: String
 
         ): Serializable

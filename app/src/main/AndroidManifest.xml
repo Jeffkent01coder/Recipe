@@ -16,13 +16,21 @@
         android:theme="@style/Theme.HowTo">
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="locked"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="locked"
+            />
+
     </application>
 
 </manifest>
