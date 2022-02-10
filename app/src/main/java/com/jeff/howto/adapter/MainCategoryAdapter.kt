@@ -12,12 +12,12 @@ class MainCategoryAdapter : RecyclerView.Adapter<MainCategoryAdapter.RecipeViewH
 
     var arrMainCategory = ArrayList<Recipes>()
     inner class RecipeViewHolder(private val my_view: ItemRvMainCategoryBinding):RecyclerView.ViewHolder(my_view.root){
-       fun bind(currentItem: Recipes){
-           my_view.tvDishName.text = currentItem.dishName
+        fun bind(currentItem: Recipes){
+            my_view.tvDishName.text = currentItem.dishName
 
 
 
-       }
+        }
     }
 
     fun setData(arrData : List<Recipes>){
