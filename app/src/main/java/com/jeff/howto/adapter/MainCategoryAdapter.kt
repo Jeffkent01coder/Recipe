@@ -1,10 +1,8 @@
 package com.jeff.howto.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.jeff.howto.R
 import com.jeff.howto.databinding.ItemRvMainCategoryBinding
 import com.jeff.howto.entities.Recipes
 

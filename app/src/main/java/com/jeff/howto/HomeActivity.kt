@@ -27,13 +27,15 @@ class HomeActivity : AppCompatActivity() {
         arrMainCategory.add(Recipes(2, "Chicken"))
         arrMainCategory.add(Recipes(3, "Dessert"))
         arrMainCategory.add(Recipes(4, "Lamb"))
+        arrMainCategory.add(Recipes(5, "Fries"))
 
         mainCategoryAdapter.setData(arrMainCategory)
 
-        arrMainCategory.add(Recipes(1, "Beef and Mustard Pie"))
-        arrMainCategory.add(Recipes(2, "Chicken and Mushroom Soup"))
-        arrMainCategory.add(Recipes(3, "Banana Pancakes"))
-        arrMainCategory.add(Recipes(4, "Italian Soup"))
+        arrSubCategory.add(Recipes(1, "Beef and Mustard Pie"))
+        arrSubCategory.add(Recipes(2, "Chicken and Mushroom Soup"))
+        arrSubCategory.add(Recipes(3, "Banana Pancakes"))
+        arrSubCategory.add(Recipes(4, "Italian Soup"))
+        arrSubCategory.add(Recipes(5, "Fries and Chicken"))
 
         subCategoryAdapter.setData(arrSubCategory)
 
