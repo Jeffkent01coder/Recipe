@@ -9,7 +9,7 @@ import com.jeff.howto.databinding.ActivityHomeBinding
 import com.jeff.howto.entities.Recipes
 
 
-class HomeActivity : AppCompatActivity() {
+class HomeActivity : BaseActivity() {
     private lateinit var binding: ActivityHomeBinding
     var arrMainCategory = ArrayList<Recipes>()
     var arrSubCategory = ArrayList<Recipes>()
