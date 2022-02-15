@@ -15,4 +15,7 @@ interface RecipeDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertCategory(category: Category)
+
+    @Query("DELETE FROM categoryx")
+    suspend fun clearDb()
 }
