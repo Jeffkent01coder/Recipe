@@ -13,8 +13,6 @@ class MainCategoryAdapter : RecyclerView.Adapter<MainCategoryAdapter.RecipeViewH
         fun bind(currentItem: Recipes){
             my_view.tvDishName.text = currentItem.dishName
 
-
-
         }
     }
 
